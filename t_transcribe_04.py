@@ -12,7 +12,7 @@ print("Loading Whisper model...")
 model = whisper.load_model("medium")
 
 # change directory pathname here below
-directory = '/Users/cp/Documents/TEND_VIDS/Videos-selected'
+directory = '###'
 os.chdir(directory)
 print(f"Changed directory to: {directory}")
 
